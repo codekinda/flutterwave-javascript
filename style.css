@@ -1,0 +1,44 @@
+body{
+background: #009999;
+}
+h1{
+	text-align:center;
+	color:navy;
+	font-size: 3em;
+}
+.main-content{
+	width: 80%;
+	margin: auto;
+}
+
+label{
+	font-size: 1.5em;
+	color: navy;
+}
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	font-size: 2em;
+	background: green;
+	color: #fff;
+	border: none;
+	border-radius:8px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+   background: navy;
+}
+#alert{
+	color:green;
+	font-size:2em;
+}
